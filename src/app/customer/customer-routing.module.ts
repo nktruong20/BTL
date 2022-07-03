@@ -3,8 +3,10 @@ import { RouterModule, Routes } from '@angular/router';
 import { Dashboard2Component } from './component/dashboard2/dashboard2.component';
 import { DetailEventComponent } from './component/layout/detail-event/detail-event.component';
 import { DetailComponent } from './component/layout/detail/detail.component';
+import { LoginComponent } from './component/layout/login/login.component';
 import { MainComponent } from './component/layout/main/main.component';
 import { MenuComponent } from './component/layout/menu/menu.component';
+import { SignupComponent } from './component/layout/signup/signup.component';
 
 const routes: Routes = [
   {path:'',component:Dashboard2Component,children:[
@@ -12,7 +14,9 @@ const routes: Routes = [
     {path:'product/:id',component:MainComponent},
     {path:'main',component:MainComponent},
     {path:'detailEvent/:id',component:DetailEventComponent},
-    {path:'detail/:id',component:DetailComponent}
+    {path:'detail/:id',component:DetailComponent},
+    {path:'signup',component:SignupComponent},
+    {path:'login',component:LoginComponent}
   ]}
 ];
 

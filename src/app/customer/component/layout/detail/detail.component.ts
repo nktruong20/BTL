@@ -19,5 +19,8 @@ export class DetailComponent implements OnInit {
       this.listProduct = data;
     })
   }
+  clickImg():void{
+    
+  }
 
 }

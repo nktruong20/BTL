@@ -13,6 +13,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { FooterComponent } from './component/layout/footer/footer.component';
 import { DetailComponent } from './component/layout/detail/detail.component';
 import { AddComponent } from './component/layout/add/add.component';
+import { EditComponent } from './component/layout/edit/edit.component';
+import { ListComponent } from './component/layout/list/list.component';
 
 
 @NgModule({
@@ -25,6 +27,8 @@ import { AddComponent } from './component/layout/add/add.component';
     FooterComponent,
     DetailComponent,
     AddComponent,
+    EditComponent,
+    ListComponent,
   ],
   imports: [
     CommonModule,

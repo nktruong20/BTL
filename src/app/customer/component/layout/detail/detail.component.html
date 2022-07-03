@@ -1,7 +1,53 @@
-<div class="card text-left">
-  <img class="card-img-top" src="{{listProduct.avatar}}" alt="">
-  <div class="card-body">
-    <h4 class="card-title">{{listProduct.name}}</h4>
-    <p class="card-text">{{listProduct.introduce}}</p>
+
+<div class="container">
+  <div class="row">
+      <div class="detail" style="width: 40% ;">
+          <div class="title">
+              <h2 class="font-italic">{{listProduct.name}}</h2>
+          </div>
+          <div class="content">
+              <div class="row">
+                  <div class="col-md-3">
+                      <h6>Giá bán : </h6>
+                  </div>
+                  <div class="col-md-9">
+                      <h5 class="text-danger">{{listProduct.price}} VNĐ</h5>
+                  </div>
+              </div>
+          </div>
+          <div class="end">
+            
+                <h6>Dài x Rộng x Cao (mm)4299 x 1780 x 1433 mm</h6>
+                <h6> Trọng lượng không tải1435 kg</h6>
+                <h6> Trọng lượng toàn bộ1960 kg</h6>
+                <h6>Thể tích làm việc1991 cc</h6>
+                <h6> Loại xy-lanh/động cơR4</h6>
+                <h6>Hộp số7G-DCT automatic transmission</h6>
+                 <h6> Công suất cực đại155hp / 5500rpm</h6>
+                <h6>Mô-men xoán cực đại350Nm / 1200–4000rpm</h6>
+                <h6>Tốc độ tối đa240 km/h</h6>
+               <h6> Dung tích bình nhiên liệu50 lít</h6>
+          </div>
+      </div>
+      <div class="img" style="width: 60%;">
+          <img src="{{listProduct.avatar}}" alt="" class="card-img" id="main-img">
+          <p (click)="clickImg()">
+            <img src="https://live.staticflickr.com/765/32255022050_8eb26d13a6_b.jpg" alt="" width="25%">
+            <img src="https://live.staticflickr.com/765/32255022050_8eb26d13a6_b.jpg" alt="" width="25%">
+            <img src="https://live.staticflickr.com/765/32255022050_8eb26d13a6_b.jpg" alt="" width="25%">
+            <img src="https://live.staticflickr.com/765/32255022050_8eb26d13a6_b.jpg" alt="" width="25%">
+          </p>
+      </div>
+      <!-- <script>
+         $(()=>{
+            $('p img').click(function(){
+                let imgPath = $(this).attr('src');
+                $('#main-img').attr('src',imgPath);
+            })
+         })
+      </script> -->
   </div>
+    <!-- <div class="back" style="text-align: center;">
+      <button class="btn btn-info" routerLink="/">Home</button>
+    </div> -->
 </div>

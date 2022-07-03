@@ -1,41 +1,63 @@
 {
-  "detailEvent":[
+  "signupForm": [
     {
-      "id":1,
-      "title":"Mercedes-Benz GLC 2020 sắp ra mắt vào cuối tháng 2 có gì mới?",
-      "avatar":"https://i.xeoto.com.vn/auto/mercedes/glc-300/mercedes-glc-300-2020-59746.png",
-      "content":"Phiên bản nâng cấp giữa vòng đời của Mercedes-Benz GLC sẽ không chỉ thay đổi thiết kế mà còn nâng cấp cả động cơ và công nghệ bên trong.Mặc dù chưa sang năm mới, các đại lý Mercedes-Benz đã nhận đặt cọc một số mẫu xe mới sẽ ra mắt trong năm 2020, gồm GLC, GLS và GLB hoàn toàn mới. Theo chia sẻ từ đại lý, GLC bản nâng cấp facelift nhiều khả năng sẽ ra mắt sớm nhất – vào cuối tháng 2, hoặc muộn hơn là sang đầu tháng 3/2020, tức sau kỳ nghỉ Tết chưa đầy 1 tháng.Tại thị trường Đông Nam Á, Mercedes-Benz GLC 2020 chọn Malaysia là điểm đến đầu tiên. Bản nâng cấp mới của GLC mới vừa ra mắt tại đây vào ngày 10/12 với các phiên bản là GLC 200 Exclusive, GLC 300 AMG và GLC 300 AMG Coupe. Về Việt Nam, Mercedes sẽ bao gồm các phiên bản GLC 200, GLC 200 4Matic và GLC 300 AMG      Là bản nâng cấp giữa vòng đời nên Mercedes-Benz GLC không có quá nhiều thay đổi ở kiểu dáng bên ngoài. Một số điểm mới mang đến cái nhìn khác biệt cho GLC 2020 là cụm đèn trước/sau, lưới tản nhiệt và thiết kế vành. Phiên bản GLC 300 tại Malaysia còn được trang bị loại đèn LED Multibeam thông minh."
-  },
-  {
-      "id":2,
-      "title":"Mercedes GLC 300 2020 mới ra mắt khác gì so với thế hệ cũ?",
-      "avatar":"https://img1.oto.com.vn/2021/03/23/v9GNb9dV/danh-gia-xe-mercedes-benz-glc-300-2021-oto-com-vn-f6ee.jpg",
-      "content":"Mercedes-Benz GLC 300 thế hệ mới đã cập bến VN với giá bán 2,5 tỷ đồng. Giá bán này cao hơn so với thế hệ cũ, xe cũng có nhiều thay đổi về thiết kế và tính năng.Là một mẫu xe dẫn đầu về mặt doanh số trong phân khúc SUV 5 chỗ cao cấp tại thị trường Việt Nam, Mercedes-Benz GLC một lần nữa mang đến nhiều sự thay đổi về cả ngoại thất, nội thất cũng như trang bị vận hành trên phiên bản facelift 2020.Thiết kế mới, kích thước lớn hơnTrong lần ra mắt này, GLC mới có duy nhất phiên bản GLC 300 4MATIC, được nhập khẩu trực tiếp từ Đức. Tương tự với phiên bản trước facelift, GLC 300 được trang bị bodykit thể thao AMG, tuy nhiên mang ngôn ngữ thiết kế mới, tương tự như trên C 300 AMG."
-  },
-  {
-      "id":3,
-      "title":"Mercedes Benz G63 có đúng là đang hot nhất hiện nay ",
-      "avatar":"https://katavina.com/uploaded/tham/mercedes-benz/2021/tham-lot-san-o-to-mercedes-amg-g63-1.jpg",
-      "content":"Với Mercedes-Benz G63 AMG 2022 mới, Mercedes-AMG G-Class 2022 đã trải qua sự thay đổi lớn nhất trong lịch sử của nó – trong khi vẫn đúng với những phẩm chất đã được chứng minh của nó. G63 củng cố vị trí độc tôn của mình trong số các xe địa hình hiệu suất với hệ thống truyền động mạnh mẽ, hệ thống treo AMG RIDE CONTROL mới được phát triển, các chế độ truyền động dành riêng cho AMG và nội thất mới với buồng lái màn hình rộng tối ưu. Cơ sở cho hiệu suất lái xe AMG nổi bật cả trong và ngoài đường được cung cấp bởi động cơ biturbo V8 4.0 lít 430 kW (585 mã lực), hệ dẫn động bốn bánh sau (40:60) với ba khóa vi sai, Hộp số tự động 9 cấp chuyển số cực nhanh, hệ thống treo trước độc lập xương đòn kép và giảm xóc điều chỉnh thích ứng."
-  }
-  ],
-  "event":[
-    {
-      "id":1,
-      "avatar":"https://img1.oto.com.vn/2020/09/05/pTBR3JY9/gia-xe-mercedes-benz-glc-200-oto-com-vn-3-e120.jpg",
-      "content":"Mercedes-Benz GLC 2020 sắp ra mắt vào cuối tháng 2 có gì mới?"
+      "fullName": "NKT20",
+      "phone": "0363590281",
+      "email": "mrnkt20052003@gmail.com",
+      "password": "12345",
+      "id": 1
     },
     {
-      "id":2,
-      "avatar":"https://i.xeoto.com.vn/auto/mercedes/glc-300/mercedes-glc-300-2020-59746.png",
-      "content":"Mercedes GLC 300 2020 mới ra mắt khác gì so với thế hệ cũ?"
+      "fullName": "nkt",
+      "phone": "12345",
+      "email": "mrnkt@gmail.com",
+      "password": "1",
+      "id": 2
     },
     {
-      "id":3,
-      "avatar":"https://i.xeoto.com.vn/auto/mercedes-amg/g63/mercedes-amg-g63-2020.png",
-      "content":"Mercedes Benz G63 có đúng là đang hot nhất hiện nay?"
+      "fullName": "NKTRUONG",
+      "phone": "0363590281",
+      "email": "nkt123@gmail.com",
+      "password": "1",
+      "id": 3
     }
-
+  ],
+  "detailEvent": [
+    {
+      "id": 1,
+      "title": "Mercedes-Benz GLC 2020 sắp ra mắt vào cuối tháng 2 có gì mới?",
+      "avatar": "https://i.xeoto.com.vn/auto/mercedes/glc-300/mercedes-glc-300-2020-59746.png",
+      "content": "Phiên bản nâng cấp giữa vòng đời của Mercedes-Benz GLC sẽ không chỉ thay đổi thiết kế mà còn nâng cấp cả động cơ và công nghệ bên trong.Mặc dù chưa sang năm mới, các đại lý Mercedes-Benz đã nhận đặt cọc một số mẫu xe mới sẽ ra mắt trong năm 2020, gồm GLC, GLS và GLB hoàn toàn mới. Theo chia sẻ từ đại lý, GLC bản nâng cấp facelift nhiều khả năng sẽ ra mắt sớm nhất – vào cuối tháng 2, hoặc muộn hơn là sang đầu tháng 3/2020, tức sau kỳ nghỉ Tết chưa đầy 1 tháng.Tại thị trường Đông Nam Á, Mercedes-Benz GLC 2020 chọn Malaysia là điểm đến đầu tiên. Bản nâng cấp mới của GLC mới vừa ra mắt tại đây vào ngày 10/12 với các phiên bản là GLC 200 Exclusive, GLC 300 AMG và GLC 300 AMG Coupe. Về Việt Nam, Mercedes sẽ bao gồm các phiên bản GLC 200, GLC 200 4Matic và GLC 300 AMG      Là bản nâng cấp giữa vòng đời nên Mercedes-Benz GLC không có quá nhiều thay đổi ở kiểu dáng bên ngoài. Một số điểm mới mang đến cái nhìn khác biệt cho GLC 2020 là cụm đèn trước/sau, lưới tản nhiệt và thiết kế vành. Phiên bản GLC 300 tại Malaysia còn được trang bị loại đèn LED Multibeam thông minh."
+    },
+    {
+      "id": 2,
+      "title": "Mercedes GLC 300 2020 mới ra mắt khác gì so với thế hệ cũ?",
+      "avatar": "https://img1.oto.com.vn/2021/03/23/v9GNb9dV/danh-gia-xe-mercedes-benz-glc-300-2021-oto-com-vn-f6ee.jpg",
+      "content": "Mercedes-Benz GLC 300 thế hệ mới đã cập bến VN với giá bán 2,5 tỷ đồng. Giá bán này cao hơn so với thế hệ cũ, xe cũng có nhiều thay đổi về thiết kế và tính năng.Là một mẫu xe dẫn đầu về mặt doanh số trong phân khúc SUV 5 chỗ cao cấp tại thị trường Việt Nam, Mercedes-Benz GLC một lần nữa mang đến nhiều sự thay đổi về cả ngoại thất, nội thất cũng như trang bị vận hành trên phiên bản facelift 2020.Thiết kế mới, kích thước lớn hơnTrong lần ra mắt này, GLC mới có duy nhất phiên bản GLC 300 4MATIC, được nhập khẩu trực tiếp từ Đức. Tương tự với phiên bản trước facelift, GLC 300 được trang bị bodykit thể thao AMG, tuy nhiên mang ngôn ngữ thiết kế mới, tương tự như trên C 300 AMG."
+    },
+    {
+      "id": 3,
+      "title": "Mercedes Benz G63 có đúng là đang hot nhất hiện nay ",
+      "avatar": "https://katavina.com/uploaded/tham/mercedes-benz/2021/tham-lot-san-o-to-mercedes-amg-g63-1.jpg",
+      "content": "Với Mercedes-Benz G63 AMG 2022 mới, Mercedes-AMG G-Class 2022 đã trải qua sự thay đổi lớn nhất trong lịch sử của nó – trong khi vẫn đúng với những phẩm chất đã được chứng minh của nó. G63 củng cố vị trí độc tôn của mình trong số các xe địa hình hiệu suất với hệ thống truyền động mạnh mẽ, hệ thống treo AMG RIDE CONTROL mới được phát triển, các chế độ truyền động dành riêng cho AMG và nội thất mới với buồng lái màn hình rộng tối ưu. Cơ sở cho hiệu suất lái xe AMG nổi bật cả trong và ngoài đường được cung cấp bởi động cơ biturbo V8 4.0 lít 430 kW (585 mã lực), hệ dẫn động bốn bánh sau (40:60) với ba khóa vi sai, Hộp số tự động 9 cấp chuyển số cực nhanh, hệ thống treo trước độc lập xương đòn kép và giảm xóc điều chỉnh thích ứng."
+    }
+  ],
+  "event": [
+    {
+      "id": 1,
+      "avatar": "https://img1.oto.com.vn/2020/09/05/pTBR3JY9/gia-xe-mercedes-benz-glc-200-oto-com-vn-3-e120.jpg",
+      "content": "Mercedes-Benz GLC 2020 sắp ra mắt vào cuối tháng 2 có gì mới?"
+    },
+    {
+      "id": 2,
+      "avatar": "https://i.xeoto.com.vn/auto/mercedes/glc-300/mercedes-glc-300-2020-59746.png",
+      "content": "Mercedes GLC 300 2020 mới ra mắt khác gì so với thế hệ cũ?"
+    },
+    {
+      "id": 3,
+      "avatar": "https://i.xeoto.com.vn/auto/mercedes-amg/g63/mercedes-amg-g63-2020.png",
+      "content": "Mercedes Benz G63 có đúng là đang hot nhất hiện nay?"
+    }
   ],
   "category_id": [
     {
@@ -59,7 +81,7 @@
     {
       "id": 4,
       "name": "MERCEDES-BENZ G-CLASS",
-      "avatar": "https://i.pinimg.com/originals/57/78/f6/5778f6d25d4add99674632883e9ecb2c.jpg",
+      "avatar": "https://xesang.com.vn/uploads/images/san-pham/mercedes/g63-amg/2020/xe-mercedes-g63-amg-1.jpg",
       "category_id": 4
     },
     {
@@ -113,22 +135,22 @@
   ],
   "product": [
     {
-      "id": 1,
       "name": "Mercedes Benz A ",
+      "category_id": 1,
+      "price": "1.100.000.000",
       "avatar": "https://doanhnhanplus.vn/wp-content/uploads/2018/04/DN-Mercedes-Benz-A-Class-Sedan-2018-BaiDN-250418-1.jpg",
-      "price": "1.000.000.000",
-      "category_id": 1
+      "id": 1
     },
     {
       "id": 2,
-      "name": "Mercedes Benz A ",
+      "name": "Mercedes Benz A  ",
       "avatar": "https://thegioimercedes.vn/wp-content/uploads/2021/07/mercedes-a200-1-.jpg",
       "price": "800.000.000",
       "category_id": 1
     },
     {
       "id": 3,
-      "name": "Mercedes Benz A ",
+      "name": "Mercedes Benz A  ",
       "avatar": "https://carsguide-res.cloudinary.com/image/upload/f_auto,fl_lossy,q_auto,t_cg_hero_large/v1/editorial/mercedes-benz-a-class-sedan-my19-1001x565-%284%29.jpg",
       "price": "900.000.000",
       "category_id": 1
@@ -136,7 +158,7 @@
     {
       "name": "Mercedes Benz A ",
       "category_id": 1,
-      "price": "1.200.000.000",
+      "price": "1.300.000.000",
       "avatar": "https://xe360.com/uploads/forum/photo/wn/wnj/wnjkp67u6vpc.jpg",
       "id": 4
     },
@@ -173,7 +195,7 @@
       "name": "Mercedes Benz E",
       "category_id": "3",
       "price": "1.500.000.000",
-      "introduce":"Dài x Rộng x Cao (mm)4691 x 1777 x 141 Trọng lượng không tải1585 kg Trọng lượng toàn bộ2075 kg Thể tích làm việc1595 cc  Loại xy-lanh/động cơR4 Hộp số6-speed manual gearbox Công suất cực đại115hp / 5300rpm Mô-men xoán cực đại250Nm / 1250–4000rpm Tốc độ tối đa230 km/h Dung tích bình nhiên liệu50 lít",
+      "introduce": "Dài x Rộng x Cao (mm)4691 x 1777 x 141 </hr> Trọng lượng không tải1585 kg Trọng lượng toàn bộ2075 kg Thể tích làm việc1595 cc  Loại xy-lanh/động cơR4 Hộp số6-speed manual gearbox Công suất cực đại115hp / 5300rpm Mô-men xoán cực đại250Nm / 1250–4000rpm Tốc độ tối đa230 km/h Dung tích bình nhiên liệu50 lít",
       "avatar": "https://tuvanmuaxe.vn/upload/upload_img/images/mercedes-e350-amg-2019-viet-nam-tuvanmuaxe-119.jpg"
     },
     {
@@ -217,6 +239,34 @@
       "category_id": "4",
       "price": "12.000.000.000",
       "avatar": "https://baoquocte.vn/stores/news_dataimages/chile/102021/26/16/amp_img/0740_1.jpg"
+    },
+    {
+      "id": 13,
+      "name": "Mercedes Benz GLA",
+      "category_id": "5",
+      "price": "3.000.000.000",
+      "avatar": "https://i.xeoto.com.vn/auto/w600/mercedes/gla-200/mercedes-gla-200-2020.png"
+    },
+    {
+      "id": 14,
+      "name": "Mercedes Benz GLA",
+      "category_id": "5",
+      "price": "3.200.000.000",
+      "avatar": "http://revistadelmotor.es/wp-content/uploads/2013/12/Mercedes-Benz-GLA.jpg"
+    },
+    {
+      "id": 15,
+      "name": "Mercedes Benz GLA",
+      "category_id": "5",
+      "price": "3.200.000.000",
+      "avatar": "https://choxesaigon.com/wp-content/uploads/2018/11/gia%CC%81-xe-mercedes-gla-200-2018-ma%CC%80u-%C4%91o%CC%89.jpg"
+    },
+    {
+      "id": 16,
+      "name": "Mercedes Benz GLA",
+      "category_id": "5",
+      "price": "3.400.000.000",
+      "avatar": "https://autozin.vn/wp-content/uploads/2019/12/2018-mercedes-amg-gla45-first-drive.jpg"
     }
   ]
 }

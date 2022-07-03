@@ -29,4 +29,7 @@ export class BlogService {
   getList():Observable<Blog[]>{
     return this.http.get<Blog[]>(`${urlAPI}`)
   }
+  update(id:number,data:Blog):Observable<Blog>{
+    return this.http.put<Blog>(`${urlAPI}/${id}`,data);
+  }
 }

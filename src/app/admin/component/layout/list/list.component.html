@@ -1,0 +1,36 @@
+<div class="above" style="margin-bottom:30px; " >
+    <div class="row">  <div class="col-md-5">
+      <button class="btn btn-dark nkt" routerLink="admin/add">Thêm Sản Phẩm  <i class="fa-solid fa-user-plus"></i></button>
+      </div>
+      <div class="col-md-6">
+          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Tìm Kiếm Sản Phẩm">
+          
+      </div>
+      </div>
+  </div>
+  
+  
+  <table class="table col-sm-12">
+    <thead>
+      <tr>
+        <th>STT</th>
+        <th>Name</th>
+        <th>Image</th>
+        <th>Price</th>
+        <th>Detail</th>
+        <th>Edit</th>
+        <th>Delete</th>
+      </tr>
+    </thead>
+    <tbody class="col-sm-12">
+      <tr *ngFor="let item of listProduct,let i = index">
+        <td scope="row"><h6>{{i+1}}</h6></td>
+        <td><h6>{{item.name}}</h6></td>
+        <td><h6><img src="{{item.avatar}}" alt="" width="120px"></h6></td>
+        <td><h6>{{item.price}}$</h6></td>
+        <td><a href="#" class="btn btn-primary" routerLink="admin/detail/{{item.id}}"> Detail  </a></td>
+        <td>  <a href="#" class="btn btn-warning" routerLink="admin/edit/{{item.id}}">Edit <i class="fa-solid fa-file-pen"></i></a></td>
+        <td>  <a href="#" class="btn btn-danger" (click)="deleteItem(item.id)">Delete <i class="fa-solid fa-user-slash"></i></a></td>
+      </tr>
+    </tbody>
+  </table>

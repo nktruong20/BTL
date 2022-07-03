@@ -33,10 +33,13 @@
            <a class="navbar-brand "href="#" >LIÊN HỆ</a>
          </li>
          <li class="nav-item ">
-           <a class="navbar-brand "href="#" >ĐĂNG KÍ </a>
+           <a class="navbar-brand "href="#" routerLink="/signup">ĐĂNG KÍ </a>
          </li>
          <li class="nav-item ">
-           <a class="navbar-brand "href="#" > ĐĂNG NHẬP </a>
+           <a class="navbar-brand "href="#" routerLink="/login"> ĐĂNG NHẬP </a>
+         </li>
+         <li class="nav-item " *ngIf="contactData">
+           <a class="navbar-brand text-danger "href="#">{{contactData.fullName}}  </a>
          </li>
        </ul>
       <!-- <a href="">

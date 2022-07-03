@@ -12,7 +12,9 @@ import { MainComponent } from './component/layout/main/main.component';
 import { MenuComponent } from './component/layout/menu/menu.component';
 import { DetailEventComponent } from './component/layout/detail-event/detail-event.component';
 import { DetailComponent } from './component/layout/detail/detail.component';
-
+import { LoginComponent } from './component/layout/login/login.component';
+import { SignupComponent } from './component/layout/signup/signup.component';
+  
 
 @NgModule({
   declarations: [
@@ -24,6 +26,9 @@ import { DetailComponent } from './component/layout/detail/detail.component';
     MenuComponent,
     DetailEventComponent,
     DetailComponent,
+    LoginComponent,
+    SignupComponent,
+ 
   ],
   imports: [
     CommonModule,

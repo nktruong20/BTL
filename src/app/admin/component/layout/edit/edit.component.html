@@ -1,0 +1,68 @@
+<h3 class="text-center text-danger">Thêm mới danh sách</h3>
+<div class="row">
+    <div class="col-md-4">
+        <form [formGroup]="formIn4" (ngSubmit)="formSubmit()">
+            <div class="form-group">
+              <label for="exampleInputEmail1">Name</label>
+              <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" formControlName="name" [(ngModel)]="form.name.value">
+              <div *ngIf="form.name.invalid &&(form.name.dirty||form.name.touched)" >
+                  <div *ngIf="form.name.errors?.['required']">
+                    <span class="text-danger font-italic">Không được để rỗng</span>
+                  </div> 
+                  <div *ngIf="!form.name.errors?.['minlenght']">
+                    <span class="text-danger font-italic">Nhập tối thiểu 5 kí tự</span>
+                  </div> 
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Category_id</label>
+              <input type="text" class="form-control" id="exampleInputPassword1" formControlName="category_id" >
+              <div *ngIf="form.category_id.invalid &&(form.category_id.dirty||form.category_id.touched)" >
+                <div *ngIf="form.category_id.errors?.['required']">
+                  <span class="text-danger font-italic">Không được để rỗng</span>
+                </div> 
+                <div *ngIf="!form.category_id.errors?.['parten']">
+                  <span class="text-danger font-italic">Chỉ được chọn từ 1-5 </span>
+                </div> 
+            </div>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Price</label>
+              <input type="text" class="form-control" id="exampleInputPassword1" formControlName="price" >
+              <div *ngIf="form.price.invalid &&(form.price.dirty||form.price.touched)" >
+                <div *ngIf="form.price.errors?.['required']">
+                  <span class="text-danger font-italic">Không được để rỗng</span>
+                </div> 
+            </div>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1">Avatar</label>
+              <input type="text" class="form-control" id="exampleInputPassword1" formControlName="avatar" >
+                <div *ngIf="form.avatar.invalid &&(form.avatar.dirty||form.avatar.touched)" >
+                  <div *ngIf="form.avatar.errors?.['required']">
+                    <span class="text-danger font-italic">Không được để rỗng</span>
+                  </div> 
+              </div>
+            </div>
+            
+         
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+    </div>
+    <div class="col-md-8">
+        <div class="jumbotron">
+           <div class="row">
+                <div class="col-md-4">
+                    <img src="{{form.avatar.value}}" alt="" width="100%">
+                </div>
+                <div class="col-md-8">
+                    <h4> Name :  {{form.name.value}}</h4>
+                    <h4> Price :  {{form.price.value}}</h4>
+                    <h4> Category_id : {{form.category_id.value}}</h4>
+                   </div>
+           </div>
+           
+            
+        </div>
+    </div>
+</div>
