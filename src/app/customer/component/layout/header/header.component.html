@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-dark nkt ">
     <div class="container">
-      <img src="https://mercedesbenz.hanoi.vn/wp-content/uploads/2019/09/logo.png" alt="" width="180px" >
+      <img src="https://mercedesbenz.hanoi.vn/wp-content/uploads/2019/09/logo.png" alt="" width="180px" style="cursor: pointer;margin-right: 70px;" routerLink="/" >
      
      <button class="navbar-toggler" type="button" href="#" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
        <span class="navbar-toggler-icon"></span>
@@ -12,19 +12,16 @@
            <a class="navbar-brand " href="#" routerLink="/">TRANG CHỦ</a>
          </li>
          <li class="nav-item active ">
-              <a class="navbar-brand" href="#">GIỚI THIỆU</a>
+              <a class="navbar-brand" href="#" routerLink="/introduce">GIỚI THIỆU</a>
          </li>
          <li class="nav-item ">
               <a class="navbar-brand" href="#" routerLink="/main">SẢN PHẨM</a>
          </li>
        
          <li class="nav-item ">
-              <a class="navbar-brand" href="#">THIẾT BỊ</a>
+              <a class="navbar-brand" href="#" routerLink="/device">THIẾT BỊ</a>
          </li>
        
-         <li class="nav-item  ">
-              <a class="navbar-brand" href="#">DỊCH VỤ</a>
-         </li>
        
          <li class="nav-item ">
            <a class="navbar-brand "href="#" >TIN TỨC</a>
@@ -33,10 +30,10 @@
            <a class="navbar-brand "href="#" >LIÊN HỆ</a>
          </li>
          <li class="nav-item ">
-           <a class="navbar-brand "href="#" routerLink="/signup">ĐĂNG KÍ </a>
+           <a class="navbar-brand "href="#" routerLink="/signups">ĐĂNG KÍ </a>
          </li>
          <li class="nav-item ">
-           <a class="navbar-brand "href="#" routerLink="/login"> ĐĂNG NHẬP </a>
+           <a class="navbar-brand "href="#" routerLink="/logins"> ĐĂNG NHẬP </a>
          </li>
          <li class="nav-item " *ngIf="contactData">
            <a class="navbar-brand text-danger "href="#">{{contactData.fullName}}  </a>

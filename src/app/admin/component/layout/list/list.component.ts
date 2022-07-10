@@ -9,6 +9,7 @@ import { BlogService } from 'src/app/Service/blog.service';
 })
 export class ListComponent implements OnInit {
   listProduct:any;
+  keyword:any;
 
   constructor(private blogService:BlogService,private route :Router,private actRouter:ActivatedRoute) { }
 

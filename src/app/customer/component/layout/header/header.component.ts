@@ -12,7 +12,7 @@ export class HeaderComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    this.check = sessionStorage.getItem('loginForm')
+    this.check = localStorage.getItem('loginForm')
     if(this.check){
       this.contactData = JSON.parse(this.check)
     }

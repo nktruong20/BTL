@@ -1,11 +1,31 @@
 {
+  "account":[
+    {
+      "id":1,
+      "fullName": "nkt",
+      "phone": "12345",
+      "email": "admin@gmail.com",
+      "password": "123",
+      "role":"admin"
+    }
+  ],
+
   "signupForm": [
+    {
+      "fullName": "admin",
+      "phone": "0363590281",
+      "email": "admin@gmail.com",
+      "password": "1",
+      "id": 0,
+      "role":"admin"
+    },
     {
       "fullName": "NKT20",
       "phone": "0363590281",
       "email": "mrnkt20052003@gmail.com",
       "password": "12345",
-      "id": 1
+      "id": 1,
+      "role":"customer"
     },
     {
       "fullName": "nkt",
@@ -13,13 +33,7 @@
       "email": "mrnkt@gmail.com",
       "password": "1",
       "id": 2
-    },
-    {
-      "fullName": "NKTRUONG",
-      "phone": "0363590281",
-      "email": "nkt123@gmail.com",
-      "password": "1",
-      "id": 3
+
     }
   ],
   "detailEvent": [
@@ -139,56 +153,229 @@
       "category_id": 1,
       "price": "1.100.000.000",
       "avatar": "https://doanhnhanplus.vn/wp-content/uploads/2018/04/DN-Mercedes-Benz-A-Class-Sedan-2018-BaiDN-250418-1.jpg",
-      "id": 1
+      "id": 1,
+      "size":"4630 x 1777 x 1432 ",
+      "weight":1540,
+      "volume":1991,
+      "cylinder": "i4",
+      "gear":"7G-DCT automatic transmission",
+      "wattage":"155hp / 5500rpm",
+      "maxspeed":"250km/h",
+      "capacity":56,
+      "detail1":"https://cms-i.autodaily.vn/du-lieu/2018/02/03/2019-mercedes-benz-a-class-hatch-01.jpg",
+      "detail2":"https://doanhnhanplus.vn/wp-content/uploads/2018/04/DN-Mercedes-Benz-A-Class-Sedan-2018-BaiDN-250418-1.jpg",
+      "detail3":"https://streaming1.danviet.vn/upload/2-2020/images/2020-04-12/Hinh-anh-phac-thao-hoan-thien-cua-Mercedes-Benz-C-Class-2021-1-1586698687-width660height371.jpg",
+      "detail4":"https://i.xeoto.com.vn/auto/mercedes/gla-250/2019/ngoai-that-mercedes-gla-250-78727.png"
     },
     {
       "id": 2,
       "name": "Mercedes Benz A  ",
       "avatar": "https://thegioimercedes.vn/wp-content/uploads/2021/07/mercedes-a200-1-.jpg",
       "price": "800.000.000",
-      "category_id": 1
+      "category_id": 1,
+      "size":"4630 x 1777 x 1432 ",
+      "weight":1540,
+      "volume":1991,
+      "cylinder": "i4",
+      "gear":"7G-DCT automatic transmission",
+      "wattage":"155hp / 5500rpm",
+      "maxspeed":"250km/h",
+      "capacity":56,
+      "allImg":[
+        {
+          "id":1,
+          "img":"https://cms-i.autodaily.vn/du-lieu/2018/02/03/2019-mercedes-benz-a-class-hatch-01.jpg"
+        },
+        {
+          "id":2,
+          "img":"https://doanhnhanplus.vn/wp-content/uploads/2018/04/DN-Mercedes-Benz-A-Class-Sedan-2018-BaiDN-250418-1.jpg"
+        },
+        {
+          "id":3,
+          "img":"https://streaming1.danviet.vn/upload/2-2020/images/2020-04-12/Hinh-anh-phac-thao-hoan-thien-cua-Mercedes-Benz-C-Class-2021-1-1586698687-width660height371.jpg"
+        }
+
+      ]
     },
     {
       "id": 3,
       "name": "Mercedes Benz A  ",
       "avatar": "https://carsguide-res.cloudinary.com/image/upload/f_auto,fl_lossy,q_auto,t_cg_hero_large/v1/editorial/mercedes-benz-a-class-sedan-my19-1001x565-%284%29.jpg",
       "price": "900.000.000",
-      "category_id": 1
+      "category_id": 1,
+      "size":"4630 x 1777 x 1432 ",
+      "weight":1540,
+      "volume":1991,
+      "cylinder": "i4",
+      "gear":"7G-DCT automatic transmission",
+      "wattage":"155hp / 5500rpm",
+      "maxspeed":"250km/h",
+      "capacity":56,
+      "allImg":[
+        {
+          "id":1,
+          "img":"https://cms-i.autodaily.vn/du-lieu/2018/02/03/2019-mercedes-benz-a-class-hatch-01.jpg"
+        },
+        {
+          "id":2,
+          "img":"https://doanhnhanplus.vn/wp-content/uploads/2018/04/DN-Mercedes-Benz-A-Class-Sedan-2018-BaiDN-250418-1.jpg"
+        },
+        {
+          "id":3,
+          "img":"https://streaming1.danviet.vn/upload/2-2020/images/2020-04-12/Hinh-anh-phac-thao-hoan-thien-cua-Mercedes-Benz-C-Class-2021-1-1586698687-width660height371.jpg"
+        }
+
+      ]
     },
     {
       "name": "Mercedes Benz A ",
       "category_id": 1,
       "price": "1.300.000.000",
       "avatar": "https://xe360.com/uploads/forum/photo/wn/wnj/wnjkp67u6vpc.jpg",
-      "id": 4
+      "id": 4,
+      "size":"4630 x 1777 x 1432 ",
+      "weight":1540,
+      "volume":1991,
+      "cylinder": "i4",
+      "gear":"7G-DCT automatic transmission",
+      "wattage":"155hp / 5500rpm",
+      "max-speed":"250km/h",
+      "capacity":56,
+      "allImg":[
+        {
+          "id":1,
+          "img":"https://cms-i.autodaily.vn/du-lieu/2018/02/03/2019-mercedes-benz-a-class-hatch-01.jpg"
+        },
+        {
+          "id":2,
+          "img":"https://doanhnhanplus.vn/wp-content/uploads/2018/04/DN-Mercedes-Benz-A-Class-Sedan-2018-BaiDN-250418-1.jpg"
+        },
+        {
+          "id":3,
+          "img":"https://streaming1.danviet.vn/upload/2-2020/images/2020-04-12/Hinh-anh-phac-thao-hoan-thien-cua-Mercedes-Benz-C-Class-2021-1-1586698687-width660height371.jpg"
+        }
+
+      ]
     },
     {
       "name": "Mercedes Benz C",
       "category_id": 2,
       "price": "1.000.000.000",
       "avatar": "https://www.mercedes-benz.com.vn/vi/passengercars/mercedes-benz-cars/models/c-class/saloon-w205/design/equipment-lines-comparison/_jcr_content/comparisonslider/par/comparisonslide_faf1/exteriorImage.MQ6.12.20190617135654.jpeg",
-      "id": 5
+      "id": 5,
+      "size":"4630 x 1777 x 1432 ",
+      "weight":1540,
+      "volume":1991,
+      "cylinder": "i4",
+      "gear":"7G-DCT automatic transmission",
+      "wattage":"155hp / 5500rpm",
+      "maxspeed":"250km/h",
+      "capacity":56,
+      "allImg":[
+        {
+          "id":1,
+          "img":"https://cms-i.autodaily.vn/du-lieu/2018/02/03/2019-mercedes-benz-a-class-hatch-01.jpg"
+        },
+        {
+          "id":2,
+          "img":"https://doanhnhanplus.vn/wp-content/uploads/2018/04/DN-Mercedes-Benz-A-Class-Sedan-2018-BaiDN-250418-1.jpg"
+        },
+        {
+          "id":3,
+          "img":"https://streaming1.danviet.vn/upload/2-2020/images/2020-04-12/Hinh-anh-phac-thao-hoan-thien-cua-Mercedes-Benz-C-Class-2021-1-1586698687-width660height371.jpg"
+        }
+
+      ]
     },
     {
       "name": "Mercedes Benz C",
       "category_id": 2,
       "price": "1000.000.000",
       "avatar": "https://static.carmudi.vn/files/model-photo/444/photo/620e8c0d546ca_E-200.jpg",
-      "id": 6
+      "id": 6,
+      "size":"4630 x 1777 x 1432 ",
+      "weight":1540,
+      "volume":1991,
+      "cylinder": "i4",
+      "gear":"7G-DCT automatic transmission",
+      "wattage":"155hp / 5500rpm",
+      "maxspeed":"250km/h",
+      "capacity":56,
+      "allImg":[
+        {
+          "id":1,
+          "img":"https://cms-i.autodaily.vn/du-lieu/2018/02/03/2019-mercedes-benz-a-class-hatch-01.jpg"
+        },
+        {
+          "id":2,
+          "img":"https://doanhnhanplus.vn/wp-content/uploads/2018/04/DN-Mercedes-Benz-A-Class-Sedan-2018-BaiDN-250418-1.jpg"
+        },
+        {
+          "id":3,
+          "img":"https://streaming1.danviet.vn/upload/2-2020/images/2020-04-12/Hinh-anh-phac-thao-hoan-thien-cua-Mercedes-Benz-C-Class-2021-1-1586698687-width660height371.jpg"
+        }
+
+      ]
     },
     {
       "name": "Mercedes Benz C",
       "category_id": "2",
       "price": "1.000.000.000",
       "avatar": "https://www.mercedes-benz.com.vn/vi/passengercars/mercedes-benz-cars/models/c-class/saloon-w205/explore/highlights/_jcr_content/contentgallerycontainer/par/contentgallery_6cb4/par/contentgallerytile_8/image.MQ6.8.20190617135657.jpeg",
-      "id": 7
+      "id": 7,
+      "size":"4630 x 1777 x 1432 ",
+      "weight":1540,
+      "volume":1991,
+      "cylinder": "i4",
+      "gear":"7G-DCT automatic transmission",
+      "wattage":"155hp / 5500rpm",
+      "maxspeed":"250km/h",
+      "capacity":56,
+      "allImg":[
+        {
+          "id":1,
+          "img":"https://cms-i.autodaily.vn/du-lieu/2018/02/03/2019-mercedes-benz-a-class-hatch-01.jpg"
+        },
+        {
+          "id":2,
+          "img":"https://doanhnhanplus.vn/wp-content/uploads/2018/04/DN-Mercedes-Benz-A-Class-Sedan-2018-BaiDN-250418-1.jpg"
+        },
+        {
+          "id":3,
+          "img":"https://streaming1.danviet.vn/upload/2-2020/images/2020-04-12/Hinh-anh-phac-thao-hoan-thien-cua-Mercedes-Benz-C-Class-2021-1-1586698687-width660height371.jpg"
+        }
+
+      ]
     },
     {
       "name": "Mercedes Benz C",
       "category_id": "2",
       "price": "1.300.000.000",
       "avatar": "https://static.carmudi.vn/files/model-photo/450/photo/620e8bb675b03_C-300-AMG.jpg",
-      "id": 8
+      "id": 8,
+      "size":"4630 x 1777 x 1432 ",
+      "weight":1540,
+      "volume":1991,
+      "cylinder": "i4",
+      "gear":"7G-DCT automatic transmission",
+      "wattage":"155hp / 5500rpm",
+      "maxspeed":"250km/h",
+      "capacity":56,
+      "allImg":[
+        {
+          "id":1,
+          "img":"https://cms-i.autodaily.vn/du-lieu/2018/02/03/2019-mercedes-benz-a-class-hatch-01.jpg"
+        },
+        {
+          "id":2,
+          "img":"https://doanhnhanplus.vn/wp-content/uploads/2018/04/DN-Mercedes-Benz-A-Class-Sedan-2018-BaiDN-250418-1.jpg"
+        },
+        {
+          "id":3,
+          "img":"https://streaming1.danviet.vn/upload/2-2020/images/2020-04-12/Hinh-anh-phac-thao-hoan-thien-cua-Mercedes-Benz-C-Class-2021-1-1586698687-width660height371.jpg"
+        }
+
+      ]
     },
     {
       "id": 9,
@@ -196,77 +383,330 @@
       "category_id": "3",
       "price": "1.500.000.000",
       "introduce": "Dài x Rộng x Cao (mm)4691 x 1777 x 141 </hr> Trọng lượng không tải1585 kg Trọng lượng toàn bộ2075 kg Thể tích làm việc1595 cc  Loại xy-lanh/động cơR4 Hộp số6-speed manual gearbox Công suất cực đại115hp / 5300rpm Mô-men xoán cực đại250Nm / 1250–4000rpm Tốc độ tối đa230 km/h Dung tích bình nhiên liệu50 lít",
-      "avatar": "https://tuvanmuaxe.vn/upload/upload_img/images/mercedes-e350-amg-2019-viet-nam-tuvanmuaxe-119.jpg"
+      "avatar": "https://tuvanmuaxe.vn/upload/upload_img/images/mercedes-e350-amg-2019-viet-nam-tuvanmuaxe-119.jpg",
+      "size":"4630 x 1777 x 1432 ",
+      "weight":1540,
+      "volume":1991,
+      "cylinder": "i4",
+      "gear":"7G-DCT automatic transmission",
+      "wattage":"155hp / 5500rpm",
+      "maxspeed":"250km/h",
+      "capacity":56,
+      "allImg":[
+        {
+          "id":1,
+          "img":"https://cms-i.autodaily.vn/du-lieu/2018/02/03/2019-mercedes-benz-a-class-hatch-01.jpg"
+        },
+        {
+          "id":2,
+          "img":"https://doanhnhanplus.vn/wp-content/uploads/2018/04/DN-Mercedes-Benz-A-Class-Sedan-2018-BaiDN-250418-1.jpg"
+        },
+        {
+          "id":3,
+          "img":"https://streaming1.danviet.vn/upload/2-2020/images/2020-04-12/Hinh-anh-phac-thao-hoan-thien-cua-Mercedes-Benz-C-Class-2021-1-1586698687-width660height371.jpg"
+        }
+
+      ]
     },
     {
       "id": 10,
       "name": "Mercedes Benz E",
       "category_id": "3",
       "price": "1.500.000.000",
-      "avatar": "https://www.mercedes-benz.com.vn/vi/passengercars/mercedes-benz-cars/models/e-class/saloon-w213-fl/design/designo/_jcr_content/contentgallerycontainer/par/contentgallery/par/contentgallerytile/image.MQ6.8.20210315115054.jpeg"
+      "avatar": "https://www.mercedes-benz.com.vn/vi/passengercars/mercedes-benz-cars/models/e-class/saloon-w213-fl/design/designo/_jcr_content/contentgallerycontainer/par/contentgallery/par/contentgallerytile/image.MQ6.8.20210315115054.jpeg",
+      "size":"4630 x 1777 x 1432 ",
+      "weight":1540,
+      "volume":1991,
+      "cylinder": "i4",
+      "gear":"7G-DCT automatic transmission",
+      "wattage":"155hp / 5500rpm",
+      "maxspeed":"250km/h",
+      "capacity":56,
+      "allImg":[
+        {
+          "id":1,
+          "img":"https://cms-i.autodaily.vn/du-lieu/2018/02/03/2019-mercedes-benz-a-class-hatch-01.jpg"
+        },
+        {
+          "id":2,
+          "img":"https://doanhnhanplus.vn/wp-content/uploads/2018/04/DN-Mercedes-Benz-A-Class-Sedan-2018-BaiDN-250418-1.jpg"
+        },
+        {
+          "id":3,
+          "img":"https://streaming1.danviet.vn/upload/2-2020/images/2020-04-12/Hinh-anh-phac-thao-hoan-thien-cua-Mercedes-Benz-C-Class-2021-1-1586698687-width660height371.jpg"
+        }
+
+      ]
     },
     {
       "id": 11,
       "name": "Mercedes Benz E",
       "category_id": "3",
       "price": "1.500.000.000",
-      "avatar": "https://autopro8.mediacdn.vn/2019/7/1/e350-amg-156197066225791831868.jpg"
+      "avatar": "https://autopro8.mediacdn.vn/2019/7/1/e350-amg-156197066225791831868.jpg",
+      "size":"4630 x 1777 x 1432 ",
+      "weight":1540,
+      "volume":1991,
+      "cylinder": "i4",
+      "gear":"7G-DCT automatic transmission",
+      "wattage":"155hp / 5500rpm",
+      "maxspeed":"250km/h",
+      "capacity":56,
+      "allImg":[
+        {
+          "id":1,
+          "img":"https://cms-i.autodaily.vn/du-lieu/2018/02/03/2019-mercedes-benz-a-class-hatch-01.jpg"
+        },
+        {
+          "id":2,
+          "img":"https://doanhnhanplus.vn/wp-content/uploads/2018/04/DN-Mercedes-Benz-A-Class-Sedan-2018-BaiDN-250418-1.jpg"
+        },
+        {
+          "id":3,
+          "img":"https://streaming1.danviet.vn/upload/2-2020/images/2020-04-12/Hinh-anh-phac-thao-hoan-thien-cua-Mercedes-Benz-C-Class-2021-1-1586698687-width660height371.jpg"
+        }
+
+      ]
     },
     {
       "id": 12,
       "name": "Mercedes Benz G",
       "category_id": "4",
       "price": "12.000.000.000",
-      "avatar": "https://i.xeoto.com.vn/auto/mercedes-amg/g63/2020/ngoai-that-mercedes-amg-g63-14899.jpg"
+      "avatar": "https://i.xeoto.com.vn/auto/mercedes-amg/g63/2020/ngoai-that-mercedes-amg-g63-14899.jpg",
+      "size":"4630 x 1777 x 1432 ",
+      "weight":1540,
+      "volume":1991,
+      "cylinder": "i4",
+      "gear":"7G-DCT automatic transmission",
+      "wattage":"155hp / 5500rpm",
+      "maxspeed":"250km/h",
+      "capacity":56,
+      "allImg":[
+        {
+          "id":1,
+          "img":"https://cms-i.autodaily.vn/du-lieu/2018/02/03/2019-mercedes-benz-a-class-hatch-01.jpg"
+        },
+        {
+          "id":2,
+          "img":"https://doanhnhanplus.vn/wp-content/uploads/2018/04/DN-Mercedes-Benz-A-Class-Sedan-2018-BaiDN-250418-1.jpg"
+        },
+        {
+          "id":3,
+          "img":"https://streaming1.danviet.vn/upload/2-2020/images/2020-04-12/Hinh-anh-phac-thao-hoan-thien-cua-Mercedes-Benz-C-Class-2021-1-1586698687-width660height371.jpg"
+        }
+
+      ]
     },
     {
       "id": 13,
       "name": "Mercedes Benz G",
       "category_id": "4",
       "price": "12.000.000.000",
-      "avatar": "https://whatcar.vn/media/2019/01/2019-Mercedes-AMG-G63.jpg"
+      "avatar": "https://whatcar.vn/media/2019/01/2019-Mercedes-AMG-G63.jpg",
+      "size":"4630 x 1777 x 1432 ",
+      "weight":1540,
+      "volume":1991,
+      "cylinder": "i4",
+      "gear":"7G-DCT automatic transmission",
+      "wattage":"155hp / 5500rpm",
+      "maxspeed":"250km/h",
+      "capacity":56,
+      "allImg":[
+        {
+          "id":1,
+          "img":"https://cms-i.autodaily.vn/du-lieu/2018/02/03/2019-mercedes-benz-a-class-hatch-01.jpg"
+        },
+        {
+          "id":2,
+          "img":"https://doanhnhanplus.vn/wp-content/uploads/2018/04/DN-Mercedes-Benz-A-Class-Sedan-2018-BaiDN-250418-1.jpg"
+        },
+        {
+          "id":3,
+          "img":"https://streaming1.danviet.vn/upload/2-2020/images/2020-04-12/Hinh-anh-phac-thao-hoan-thien-cua-Mercedes-Benz-C-Class-2021-1-1586698687-width660height371.jpg"
+        }
+
+      ]
     },
     {
       "id": 12,
       "name": "Mercedes Benz G",
       "category_id": "4",
       "price": "12.000.000.000",
-      "avatar": "http://otoxemay.vn/uploads/139UID1518578141/files/2019_MercedesAMG_G63_1.jpg"
+      "avatar": "http://otoxemay.vn/uploads/139UID1518578141/files/2019_MercedesAMG_G63_1.jpg",
+      "size":"4630 x 1777 x 1432 ",
+      "weight":1540,
+      "volume":1991,
+      "cylinder": "i4",
+      "gear":"7G-DCT automatic transmission",
+      "wattage":"155hp / 5500rpm",
+      "maxspeed":"250km/h",
+      "capacity":56,
+      "allImg":[
+        {
+          "id":1,
+          "img":"https://cms-i.autodaily.vn/du-lieu/2018/02/03/2019-mercedes-benz-a-class-hatch-01.jpg"
+        },
+        {
+          "id":2,
+          "img":"https://doanhnhanplus.vn/wp-content/uploads/2018/04/DN-Mercedes-Benz-A-Class-Sedan-2018-BaiDN-250418-1.jpg"
+        },
+        {
+          "id":3,
+          "img":"https://streaming1.danviet.vn/upload/2-2020/images/2020-04-12/Hinh-anh-phac-thao-hoan-thien-cua-Mercedes-Benz-C-Class-2021-1-1586698687-width660height371.jpg"
+        }
+
+      ]
     },
     {
       "id": 12,
       "name": "Mercedes Benz G",
       "category_id": "4",
       "price": "12.000.000.000",
-      "avatar": "https://baoquocte.vn/stores/news_dataimages/chile/102021/26/16/amp_img/0740_1.jpg"
+      "avatar": "https://baoquocte.vn/stores/news_dataimages/chile/102021/26/16/amp_img/0740_1.jpg",
+      "size":"4630 x 1777 x 1432 ",
+      "weight":1540,
+      "volume":1991,
+      "cylinder": "i4",
+      "gear":"7G-DCT automatic transmission",
+      "wattage":"155hp / 5500rpm",
+      "maxspeed":"250km/h",
+      "capacity":56,
+      "allImg":[
+        {
+          "id":1,
+          "img":"https://cms-i.autodaily.vn/du-lieu/2018/02/03/2019-mercedes-benz-a-class-hatch-01.jpg"
+        },
+        {
+          "id":2,
+          "img":"https://doanhnhanplus.vn/wp-content/uploads/2018/04/DN-Mercedes-Benz-A-Class-Sedan-2018-BaiDN-250418-1.jpg"
+        },
+        {
+          "id":3,
+          "img":"https://streaming1.danviet.vn/upload/2-2020/images/2020-04-12/Hinh-anh-phac-thao-hoan-thien-cua-Mercedes-Benz-C-Class-2021-1-1586698687-width660height371.jpg"
+        }
+
+      ]
     },
     {
       "id": 13,
       "name": "Mercedes Benz GLA",
       "category_id": "5",
       "price": "3.000.000.000",
-      "avatar": "https://i.xeoto.com.vn/auto/w600/mercedes/gla-200/mercedes-gla-200-2020.png"
+      "avatar": "https://i.xeoto.com.vn/auto/w600/mercedes/gla-200/mercedes-gla-200-2020.png",
+      "size":"4630 x 1777 x 1432 ",
+      "weight":1540,
+      "volume":1991,
+      "cylinder": "i4",
+      "gear":"7G-DCT automatic transmission",
+      "wattage":"155hp / 5500rpm",
+      "maxspeed":"250km/h",
+      "capacity":56,
+      "allImg":[
+        {
+          "id":1,
+          "img":"https://cms-i.autodaily.vn/du-lieu/2018/02/03/2019-mercedes-benz-a-class-hatch-01.jpg"
+        },
+        {
+          "id":2,
+          "img":"https://doanhnhanplus.vn/wp-content/uploads/2018/04/DN-Mercedes-Benz-A-Class-Sedan-2018-BaiDN-250418-1.jpg"
+        },
+        {
+          "id":3,
+          "img":"https://streaming1.danviet.vn/upload/2-2020/images/2020-04-12/Hinh-anh-phac-thao-hoan-thien-cua-Mercedes-Benz-C-Class-2021-1-1586698687-width660height371.jpg"
+        }
+
+      ]
     },
     {
       "id": 14,
       "name": "Mercedes Benz GLA",
       "category_id": "5",
       "price": "3.200.000.000",
-      "avatar": "http://revistadelmotor.es/wp-content/uploads/2013/12/Mercedes-Benz-GLA.jpg"
+      "avatar": "http://revistadelmotor.es/wp-content/uploads/2013/12/Mercedes-Benz-GLA.jpg",
+      "size":"4630 x 1777 x 1432 ",
+      "weight":1540,
+      "volume":1991,
+      "cylinder": "i4",
+      "gear":"7G-DCT automatic transmission",
+      "wattage":"155hp / 5500rpm",
+      "maxspeed":250,
+      "capacity":56,
+      "allImg":[
+        {
+          "id":1,
+          "img":"https://cms-i.autodaily.vn/du-lieu/2018/02/03/2019-mercedes-benz-a-class-hatch-01.jpg"
+        },
+        {
+          "id":2,
+          "img":"https://doanhnhanplus.vn/wp-content/uploads/2018/04/DN-Mercedes-Benz-A-Class-Sedan-2018-BaiDN-250418-1.jpg"
+        },
+        {
+          "id":3,
+          "img":"https://streaming1.danviet.vn/upload/2-2020/images/2020-04-12/Hinh-anh-phac-thao-hoan-thien-cua-Mercedes-Benz-C-Class-2021-1-1586698687-width660height371.jpg"
+        }
+
+      ]
     },
     {
       "id": 15,
       "name": "Mercedes Benz GLA",
       "category_id": "5",
       "price": "3.200.000.000",
-      "avatar": "https://choxesaigon.com/wp-content/uploads/2018/11/gia%CC%81-xe-mercedes-gla-200-2018-ma%CC%80u-%C4%91o%CC%89.jpg"
+      "avatar": "https://choxesaigon.com/wp-content/uploads/2018/11/gia%CC%81-xe-mercedes-gla-200-2018-ma%CC%80u-%C4%91o%CC%89.jpg",
+      "size":"4630 x 1777 x 1432 ",
+      "weight":1540,
+      "volume":1991,
+      "cylinder": "i4",
+      "gear":"7G-DCT automatic transmission",
+      "wattage":"155hp / 5500rpm",
+      "maxspeed":"250km/h",
+      "capacity":56,
+      "allImg":[
+        {
+          "id":1,
+          "img":"https://cms-i.autodaily.vn/du-lieu/2018/02/03/2019-mercedes-benz-a-class-hatch-01.jpg"
+        },
+        {
+          "id":2,
+          "img":"https://doanhnhanplus.vn/wp-content/uploads/2018/04/DN-Mercedes-Benz-A-Class-Sedan-2018-BaiDN-250418-1.jpg"
+        },
+        {
+          "id":3,
+          "img":"https://streaming1.danviet.vn/upload/2-2020/images/2020-04-12/Hinh-anh-phac-thao-hoan-thien-cua-Mercedes-Benz-C-Class-2021-1-1586698687-width660height371.jpg"
+        }
+
+      ]
     },
     {
       "id": 16,
       "name": "Mercedes Benz GLA",
       "category_id": "5",
       "price": "3.400.000.000",
-      "avatar": "https://autozin.vn/wp-content/uploads/2019/12/2018-mercedes-amg-gla45-first-drive.jpg"
+      "avatar": "https://autozin.vn/wp-content/uploads/2019/12/2018-mercedes-amg-gla45-first-drive.jpg",
+      "size":"4630 x 1777 x 1432 ",
+      "weight":1540,
+      "volume":1991,
+      "cylinder": "i4",
+      "gear":"7G-DCT automatic transmission",
+      "wattage":"155hp / 5500rpm",
+      "maxspeed":"250km/h",
+      "capacity":56,
+      "allImg":[
+        {
+          "id":1,
+          "img":"https://cms-i.autodaily.vn/du-lieu/2018/02/03/2019-mercedes-benz-a-class-hatch-01.jpg"
+        },
+        {
+          "id":2,
+          "img":"https://doanhnhanplus.vn/wp-content/uploads/2018/04/DN-Mercedes-Benz-A-Class-Sedan-2018-BaiDN-250418-1.jpg"
+        },
+        {
+          "id":3,
+          "img":"https://streaming1.danviet.vn/upload/2-2020/images/2020-04-12/Hinh-anh-phac-thao-hoan-thien-cua-Mercedes-Benz-C-Class-2021-1-1586698687-width660height371.jpg"
+        }
+
+      ]
     }
   ]
 }

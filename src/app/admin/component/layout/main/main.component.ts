@@ -8,11 +8,12 @@ import { BlogService } from 'src/app/Service/blog.service';
   styleUrls: ['./main.component.css']
 })
 export class MainComponent implements OnInit {
-  listProduct:any;
-  
-  list:any;
+ 
 
   constructor(private blogService:BlogService,private route :Router) { }
+  listProduct:any;
+  list:any;
+  keyword:any;
 
   ngOnInit(): void {
     this.blogService.getAll().subscribe((data)=>{

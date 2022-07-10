@@ -2,13 +2,14 @@ import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
-
+import { NgxSpinnerService } from "ngx-spinner";
 @Component({
   selector: 'app-signup',
   templateUrl: './signup.component.html',
   styleUrls: ['./signup.component.css']
 })
 export class SignupComponent implements OnInit {
+
 
   formList = new FormGroup({
     fullName:new FormControl('',
@@ -27,9 +28,9 @@ export class SignupComponent implements OnInit {
     ]),
   })
 
-  constructor(private http:HttpClient,private route:Router) { }
-
+  constructor(private http:HttpClient,private route:Router,private spinner: NgxSpinnerService) { }
   ngOnInit(): void {
+   
   }
   signUp(){
     this.http.post<any>(" http://localhost:3000/signupForm",this.formList.value).subscribe((data)=>{

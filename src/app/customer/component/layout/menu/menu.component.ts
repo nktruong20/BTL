@@ -14,7 +14,7 @@ export class MenuComponent implements OnInit {
   listEvent:any;
 
   constructor(private categoryService:CategoryService,private route:Router,public sanitizer: DomSanitizer,private eventService:EventService) { }
-
+  keyword:any;
   ngOnInit(): void {
     this.categoryService.getAllCat().subscribe((data)=>{
       this.listCate = data;

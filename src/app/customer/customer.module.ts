@@ -14,6 +14,10 @@ import { DetailEventComponent } from './component/layout/detail-event/detail-eve
 import { DetailComponent } from './component/layout/detail/detail.component';
 import { LoginComponent } from './component/layout/login/login.component';
 import { SignupComponent } from './component/layout/signup/signup.component';
+import { SearchPipe } from './search.pipe';
+import { TopComponent } from './component/layout/top/top.component';
+import { IntroduceComponent } from './component/layout/introduce/introduce.component';
+import { DeviceComponent } from './component/layout/device/device.component';
   
 
 @NgModule({
@@ -28,6 +32,10 @@ import { SignupComponent } from './component/layout/signup/signup.component';
     DetailComponent,
     LoginComponent,
     SignupComponent,
+    SearchPipe,
+    TopComponent,
+    IntroduceComponent,
+    DeviceComponent,
  
   ],
   imports: [

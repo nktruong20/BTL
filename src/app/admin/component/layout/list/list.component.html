@@ -3,7 +3,7 @@
       <button class="btn btn-dark nkt" routerLink="admin/add">Thêm Sản Phẩm  <i class="fa-solid fa-user-plus"></i></button>
       </div>
       <div class="col-md-6">
-          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Tìm Kiếm Sản Phẩm">
+          <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Search" [(ngModel)]="keyword">
           
       </div>
       </div>
@@ -23,8 +23,8 @@
       </tr>
     </thead>
     <tbody class="col-sm-12">
-      <tr *ngFor="let item of listProduct,let i = index">
-        <td scope="row"><h6>{{i+1}}</h6></td>
+      <tr *ngFor="let item of listProduct|search:keyword">
+        <td scope="row"><h6>{{1}}</h6></td>
         <td><h6>{{item.name}}</h6></td>
         <td><h6><img src="{{item.avatar}}" alt="" width="120px"></h6></td>
         <td><h6>{{item.price}}$</h6></td>

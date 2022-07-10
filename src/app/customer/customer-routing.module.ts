@@ -3,6 +3,8 @@ import { RouterModule, Routes } from '@angular/router';
 import { Dashboard2Component } from './component/dashboard2/dashboard2.component';
 import { DetailEventComponent } from './component/layout/detail-event/detail-event.component';
 import { DetailComponent } from './component/layout/detail/detail.component';
+import { DeviceComponent } from './component/layout/device/device.component';
+import { IntroduceComponent } from './component/layout/introduce/introduce.component';
 import { LoginComponent } from './component/layout/login/login.component';
 import { MainComponent } from './component/layout/main/main.component';
 import { MenuComponent } from './component/layout/menu/menu.component';
@@ -16,7 +18,9 @@ const routes: Routes = [
     {path:'detailEvent/:id',component:DetailEventComponent},
     {path:'detail/:id',component:DetailComponent},
     {path:'signup',component:SignupComponent},
-    {path:'login',component:LoginComponent}
+    {path:'login',component:LoginComponent},
+    {path:'introduce',component:IntroduceComponent},
+    {path:'device',component:DeviceComponent}
   ]}
 ];
 

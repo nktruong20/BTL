@@ -26,7 +26,7 @@ export class LoginComponent implements OnInit {
       if(user){
         alert("Đăng Nhập Thành Công ! ");
         this.loginForm.reset();
-        sessionStorage.setItem('loginForm',JSON.stringify(user)),
+        localStorage.setItem('loginForm',JSON.stringify(user)),
         this.route.navigate(['/']);
       }else{
         alert('Đăng Nhập Thất Bại ! Vui Lòng Kiểm Tra Lại')

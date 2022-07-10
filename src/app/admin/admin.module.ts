@@ -15,6 +15,7 @@ import { DetailComponent } from './component/layout/detail/detail.component';
 import { AddComponent } from './component/layout/add/add.component';
 import { EditComponent } from './component/layout/edit/edit.component';
 import { ListComponent } from './component/layout/list/list.component';
+import { SearchPipe } from './search.pipe';
 
 
 @NgModule({
@@ -29,6 +30,7 @@ import { ListComponent } from './component/layout/list/list.component';
     AddComponent,
     EditComponent,
     ListComponent,
+    SearchPipe,
   ],
   imports: [
     CommonModule,

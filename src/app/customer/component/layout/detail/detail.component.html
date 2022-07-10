@@ -1,53 +1,64 @@
 
 <div class="container">
   <div class="row">
-      <div class="detail" style="width: 40% ;">
-          <div class="title">
-              <h2 class="font-italic">{{listProduct.name}}</h2>
-          </div>
-          <div class="content">
-              <div class="row">
-                  <div class="col-md-3">
-                      <h6>Giá bán : </h6>
-                  </div>
-                  <div class="col-md-9">
-                      <h5 class="text-danger">{{listProduct.price}} VNĐ</h5>
-                  </div>
-              </div>
-          </div>
-          <div class="end">
-            
-                <h6>Dài x Rộng x Cao (mm)4299 x 1780 x 1433 mm</h6>
-                <h6> Trọng lượng không tải1435 kg</h6>
-                <h6> Trọng lượng toàn bộ1960 kg</h6>
-                <h6>Thể tích làm việc1991 cc</h6>
-                <h6> Loại xy-lanh/động cơR4</h6>
-                <h6>Hộp số7G-DCT automatic transmission</h6>
-                 <h6> Công suất cực đại155hp / 5500rpm</h6>
-                <h6>Mô-men xoán cực đại350Nm / 1200–4000rpm</h6>
-                <h6>Tốc độ tối đa240 km/h</h6>
-               <h6> Dung tích bình nhiên liệu50 lít</h6>
-          </div>
+      <div class="col-md-5">
+        <div class="detail">
+            <div class="title">
+                <h2 class="font-italic">{{listProduct.name}}</h2>
+            </div>
+            <div class="content">
+                <div class="row">
+                    <div class="col-md-3">
+                        <h6>Giá bán : </h6>
+                    </div>
+                    <div class="col-md-9">
+                        <h5 class="text-danger">{{listProduct.price}} VNĐ</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="end">
+              
+                  <h6>Dài x Rộng x Cao (mm)4299 x 1780 x 1433 mm</h6>
+                  <h6> Trọng lượng không tải1435 kg</h6>
+                  <h6> Trọng lượng toàn bộ1960 kg</h6>
+                  <h6>Thể tích làm việc1991 cc</h6>
+                  <h6> Loại xy-lanh/động cơR4</h6>
+                  <h6>Hộp số7G-DCT automatic transmission</h6>
+                   <h6> Công suất cực đại155hp / 5500rpm</h6>
+                  <h6>Mô-men xoán cực đại350Nm / 1200–4000rpm</h6>
+                  <h6>Tốc độ tối đa240 km/h</h6>
+                 <h6> Dung tích bình nhiên liệu50 lít</h6>
+            </div>
+        </div>
       </div>
-      <div class="img" style="width: 60%;">
-          <img src="{{listProduct.avatar}}" alt="" class="card-img" id="main-img">
-          <p (click)="clickImg()">
-            <img src="https://live.staticflickr.com/765/32255022050_8eb26d13a6_b.jpg" alt="" width="25%">
-            <img src="https://live.staticflickr.com/765/32255022050_8eb26d13a6_b.jpg" alt="" width="25%">
-            <img src="https://live.staticflickr.com/765/32255022050_8eb26d13a6_b.jpg" alt="" width="25%">
-            <img src="https://live.staticflickr.com/765/32255022050_8eb26d13a6_b.jpg" alt="" width="25%">
-          </p>
-      </div>
-      <!-- <script>
-         $(()=>{
-            $('p img').click(function(){
-                let imgPath = $(this).attr('src');
-                $('#main-img').attr('src',imgPath);
+      <div class="col-md-7"  >
+         <div class="img">
+            <img src="{{listProduct.avatar}}" alt="Image" class="card-img" id="mainImg">
+           <div class="row nk" >
+            <div class="col-md-3">
+                <img src="{{listProduct.detail1}}" alt="Image1" class="card-img" app-detail>
+            </div>  
+            <div class="col-md-3">
+                <img src="{{listProduct.detail2}}" alt="Image2" class="card-img" app-detail>
+            </div>
+            <div class="col-md-3">
+                <img src="{{listProduct.detail3}}" alt="Image3" class="card-img" app-detail>
+            </div>
+            <div class="col-md-3">
+                <img src="{{listProduct.detail4}}" alt="Image4" class="card-img" app-detail>
+            </div>
+           </div>
+         </div>
+         
+         <script>
+            $(()=>{
+                $('nk img').click(function(){
+                    let imgPath = $(this).attr('src');
+                    $('mainImg').attr('src',imgPath)
+                })
             })
-         })
-      </script> -->
+         </script>
+      </div>
+    
   </div>
-    <!-- <div class="back" style="text-align: center;">
-      <button class="btn btn-info" routerLink="/">Home</button>
-    </div> -->
 </div>
