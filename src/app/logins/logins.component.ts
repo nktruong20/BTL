@@ -3,6 +3,7 @@ import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup } from '@angular/forms';
 import { Router } from '@angular/router';
 import { AccountService } from '../Service/account.service';
+import Swal from 'sweetalert2'
 
 @Component({
   selector: 'app-logins',
@@ -10,6 +11,7 @@ import { AccountService } from '../Service/account.service';
   styleUrls: ['./logins.component.css']
 })
 export class LoginsComponent implements OnInit {
+  
   loginForm = new FormGroup({
     email:new FormControl(''),
     password:new FormControl('')
@@ -19,6 +21,7 @@ export class LoginsComponent implements OnInit {
 
 
   constructor(private http:HttpClient,private route:Router,private acc:AccountService) { }
+
 
   ngOnInit(): void {
     this.check = localStorage.getItem('loginForm')
@@ -33,12 +36,26 @@ export class LoginsComponent implements OnInit {
         return a.email === this.loginForm.value.email && a.password === this.loginForm.value.password;
       })
       if(user){
-        alert("Đăng Nhập Thành Công ! ");
+        // alert("Đăng Nhập Thành Công ! ");
+        
         this.loginForm.reset();
         localStorage.setItem('loginForm',JSON.stringify(user)),
         this.route.navigate(['/']);
+        Swal.fire({
+          position: 'center',
+          icon: 'success',
+          title: 'ĐĂNG NHẬP THÀNH CÔNG',
+          showConfirmButton: false,
+          timer: 1500
+        })
+        
       }else{
-        alert('Đăng Nhập Thất Bại ! Vui Lòng Kiểm Tra Lại')
+        Swal.fire({
+          icon: 'error',
+          title: 'SAI THÔNG TIN ĐĂNG NHẬP',
+          text: 'VUI LÒNG KIỂM TRA LẠI',
+          footer: '<a href="">Why do I have this issue?</a>'
+        })
       }
     })
     this.checkLoginAdmin(this.loginForm.value)

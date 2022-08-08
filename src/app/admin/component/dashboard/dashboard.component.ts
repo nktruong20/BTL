@@ -11,5 +11,15 @@ export class DashboardComponent implements OnInit {
 
   ngOnInit(): void {
   }
+  onActivate(event:any) {
+    // window.scroll(0,0);
+ 
+    window.scroll({ 
+            top: 0, 
+            left: 0, 
+            behavior: 'auto' 
+     });
+ 
+ }
 
 }

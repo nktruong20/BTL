@@ -16,6 +16,9 @@ import { AddComponent } from './component/layout/add/add.component';
 import { EditComponent } from './component/layout/edit/edit.component';
 import { ListComponent } from './component/layout/list/list.component';
 import { SearchPipe } from './search.pipe';
+import { AddnewComponent } from './component/layout/addnew/addnew.component';
+import { CarouselModule } from 'ngx-owl-carousel-o';
+
 
 
 @NgModule({
@@ -31,13 +34,15 @@ import { SearchPipe } from './search.pipe';
     EditComponent,
     ListComponent,
     SearchPipe,
+    AddnewComponent,
   ],
   imports: [
     CommonModule,
     AdminRoutingModule,
     FormsModule,
     ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
+    CarouselModule
   ]
 })
 export class AdminModule { }

@@ -18,7 +18,10 @@ import { SearchPipe } from './search.pipe';
 import { TopComponent } from './component/layout/top/top.component';
 import { IntroduceComponent } from './component/layout/introduce/introduce.component';
 import { DeviceComponent } from './component/layout/device/device.component';
-  
+import { CarouselModule } from 'ngx-owl-carousel-o';
+import { NewlistComponent } from './component/layout/newlist/newlist.component';
+import { ContactComponent } from './component/layout/contact/contact.component';
+import { NgxSpinnerModule } from 'ngx-spinner';
 
 @NgModule({
   declarations: [
@@ -36,6 +39,8 @@ import { DeviceComponent } from './component/layout/device/device.component';
     TopComponent,
     IntroduceComponent,
     DeviceComponent,
+    NewlistComponent,
+    ContactComponent,
  
   ],
   imports: [
@@ -43,7 +48,9 @@ import { DeviceComponent } from './component/layout/device/device.component';
     CustomerRoutingModule,
     FormsModule,
     ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
+    CarouselModule,
+    NgxSpinnerModule
   ]
 })
 export class CustomerModule { }

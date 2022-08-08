@@ -3,6 +3,7 @@ import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 import { NgxSpinnerService } from 'ngx-spinner';
+import Swal from 'sweetalert2'
 
 @Component({
   selector: 'app-signups',
@@ -40,9 +41,15 @@ export class SignupsComponent implements OnInit {
   }
   signUp(){
     this.http.post<any>(" http://localhost:3000/signupForm",this.formList.value).subscribe((data)=>{
-      alert("Đăng Kí Thành Công !");
       this.formList.reset();
       this.route.navigate(['login'])
+      Swal.fire({
+        position: 'center',
+        icon: 'success',
+        title: 'Đăng ký tài khoản thành công',
+        showConfirmButton: false,
+        timer: 1500
+      })
     })
   }
   get form():any{

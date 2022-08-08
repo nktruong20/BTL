@@ -4,6 +4,7 @@ import { FormControl, FormGroup } from '@angular/forms';
 import { Router } from '@angular/router';
 // import { stringify } from 'querystring';
 import { AccountService } from '../Service/account.service';
+import Swal from 'sweetalert2'
 
 @Component({
   selector: 'app-logon',
@@ -35,8 +36,19 @@ export class LogonComponent implements OnInit {
       if(check){
         localStorage.setItem('adminLogin',JSON.stringify(check));
         this.route.navigate(['/admin'])
+        Swal.fire({
+          position: 'center',
+          icon: 'success',
+          title: 'Đăng nhập thành công',
+          showConfirmButton: false,
+          timer: 1500
+        })
       }else{
-        console.log('sai')
+        Swal.fire({
+          icon: 'error',
+          text: 'Đăng nhập thất bại!Bạn có chắc bạn là Admin chứ ? ',
+          footer: '<a href="">Why do I have this issue?</a>'
+        })
       }
     })
   }

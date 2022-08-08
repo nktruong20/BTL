@@ -15,7 +15,7 @@ export class Blog {
     id?:number;
     name?:string;
     category_id?:number;
-    price?:string;
+    price?:number;
     avatar?:string;
     size?:string;
     weight?:number;
@@ -25,5 +25,9 @@ export class Blog {
     wattage?:string;
     maxspeed?:number;
     capacity?:number;
-    allImg?:any
+    allImg?:any;
+    save?:any;
+    productImg?:any;
+    endImg?:any;
+    quantity?:any;
 }

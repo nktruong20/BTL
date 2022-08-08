@@ -1,7 +1,8 @@
 import { Component, ElementRef, HostListener, OnInit } from '@angular/core';
-import { ActivatedRoute } from '@angular/router';
+import { ActivatedRoute, Route } from '@angular/router';
 import { NhapService } from 'src/app/nhap/nhap.service';
 import { BlogService } from 'src/app/Service/blog.service';
+import { OwlOptions } from 'ngx-owl-carousel-o';
 
 @Component({
   selector: 'app-detail',
@@ -14,31 +15,48 @@ export class DetailComponent implements OnInit {
 
 
   constructor(private blogService:BlogService,private actRoute:ActivatedRoute,private nhap:NhapService,private el:ElementRef) { }
-
+  currentRate:number = 3;
   ngOnInit(): void { 
     let _id = this.actRoute.snapshot.params['id'];
     this.blogService.find(_id).subscribe((data)=>{
-      // this.sliderImg = data.allImg;
+      this.sliderImg = data.allImg;
       this.listProduct = data
     })
   }
-  clickImg():void{
-    
-  }
   @HostListener('click')
   imageChange(){
-  //   var src:any = this.el.nativeElement.src;
-  //   var mainImg:any = document.getElementById('mainImg');
-  //   // console.log(mainImg)
-  //   mainImg.src = src;
-  //   var imageSlide = document.getElementsByClassName("col-md-3");
-  //   for (let i = 0; i < imageSlide.length; i++) {
-  //       imageSlide[i].classList.remove('active')
-      
-  //   }
-  //   this.el.nativeElement.parentElement.classList.add("active")
-
-  // }
-  console.log(this.el.nativeElement)
+    var src:any  = this.el.nativeElement.src;
+    var prev:any = document.getElementById("preview");
+    prev.src = src;
+    this.el.nativeElement.parentElement.clasList.add("active")
+    // console.log(prev)
   }
+  customOptions: OwlOptions = {
+    loop: true,
+    mouseDrag: true,
+    touchDrag: true,
+    pullDrag: true,
+    dots: true,
+    navSpeed: 700,
+    navText: ['', ''],
+    responsive: {
+      0: {
+        items: 1
+      },
+      400: {
+        items: 1
+      },
+      740: {
+        items: 1
+      },
+      940: {
+        items: 1
+      }
+    },
+    nav: true
+  }
+  cartAdd():void{
+    
+  }
+
 }

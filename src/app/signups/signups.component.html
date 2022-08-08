@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-dark nkt ">
+<nav class="navbar navbar-expand-lg navbar-light nkt ">
     <div class="container">
       <img src="https://mercedesbenz.hanoi.vn/wp-content/uploads/2019/09/logo.png" alt="" width="180px" style="cursor: pointer;margin-right: 70px;" routerLink="/" >
      
@@ -35,8 +35,8 @@
          <li class="nav-item ">
            <a class="navbar-brand "href="#" routerLink="/logins"> ĐĂNG NHẬP </a>
          </li>
-         <li class="nav-item " *ngIf="contactData">
-           <a class="navbar-brand text-danger "href="#">{{contactData.fullName}}  </a>
+         <li class="nav-item look " *ngIf="contactData">
+           <a class="navbar-brand "href="#">{{contactData.fullName}}  </a>
          </li>
        </ul>
       <!-- <a href="">
@@ -50,7 +50,7 @@
 <div class="main">
     <div class="pd">
         <div class="col-md-5">
-            <h1 class="text-center" style="font-weight: bolder;">SIGN UP</h1>
+            <h1 class="text-center" style="font-weight: bolder;">ĐĂNG KÝ</h1>
             <form [formGroup]="formList" (ngSubmit)="signUp()">
                 <div class="form-group">
                   <label for="exampleInputEmail1">Họ Tên : </label>
@@ -94,8 +94,8 @@
                     </div>
                 </div>
                 </div>
-                <p>Bạn đã có tài khoản rồi ?  <a routerLink="/login" style="text-decoration: none; color: orangered;" >Đăng nhập</a></p>
-                <button type="submit" class="btn btn-secondary" style="width: 100%; margin-bottom: 30px;" [disabled]="form.fullName.invalid || form.phone.invalid || form.email.invalid || form.password.invalid">ĐĂNG KÍ</button>
+                <p>Bạn đã có tài khoản rồi ?  <a routerLink="/logins" style="text-decoration: none; color: orangered;" >Đăng nhập</a></p>
+                <button type="submit" class="btn btn-dark" style="width: 100%; margin-bottom: 30px;" [disabled]="form.fullName.invalid || form.phone.invalid || form.email.invalid || form.password.invalid"><span style="font-weight: bolder; font-size: 18px;">ĐĂNG KÝ</span></button>
               </form>
         </div>
     </div>

@@ -18,14 +18,43 @@ export class AddComponent implements OnInit {
     ]),
     category_id:new FormControl('',[
       Validators.required,
-      Validators.pattern('[1-5]{1}')
+      Validators.pattern('[1-12]{1}')
     ]),
     price:new FormControl('',[
       Validators.required,
     ]),
     avatar:new FormControl('',[
       Validators.required,
-    ])
+    ]),
+    size:new FormControl('',[
+      Validators.required
+    ]),
+    weight:new FormControl('',[
+      Validators.required,
+      Validators.min(0)
+    ]),
+    volume:new FormControl('',[
+      Validators.required,
+      Validators.min(0)
+    ]),
+    cyliner:new FormControl('',[
+      Validators.required
+    ]),
+    gear:new FormControl('',[
+      Validators.required
+    ]),
+    maxspeed:new FormControl('',[
+      Validators.required,
+      Validators.min(100)
+    ]),
+    wattage:new FormControl('',[
+      Validators.required
+    ]),
+    capacity:new FormControl('',[
+      Validators.required,
+      Validators.min(0)
+    ]),
+    // allImg:new FormControl('')
   })
 
   constructor(private blogService:BlogService,private router:Router) { }

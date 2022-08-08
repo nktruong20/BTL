@@ -1,6 +1,6 @@
 <div class="col-md-12 col-sm-12">
     <div class="title">
-        <h4 class="text-center" >DÒNG XE MERCEDES BENZ</h4>
+        <h4 class="text-center cesar" >DÒNG XE MERCEDES BENZ</h4>
         <input type="text" class="form-control" placeholder="Tìm Kiếm Dòng Xe" [(ngModel)]="keyword">
     </div>
     
@@ -11,15 +11,22 @@
             <div class="card text-left" (click)="navigator(item.id)" style="margin-bottom: 20px ;">
               <img class="card-img-top" src="{{item.avatar}}" alt="">
               <div class="card-body">
-                <h6 class="card-title">{{item.name}}</h6>
+                <h6 class="card-title text-center">{{item.name}}</h6>
               </div>
             </div>
         </div>
     </div>
 </div>
-<div style="text-align: center;">
-    <button class="btn btn-dark" routerLink="/main" ><i class="fa-solid fa-house-chimney"></i> TẤT CẢ SẢN PHẨM</button>
-</div>
+    <!-- <div style="text-align: center;">
+        <button class="btn btn-dark" routerLink="/main" ><i class="fa-solid fa-house-chimney"></i> TẤT CẢ SẢN PHẨM</button>
+    </div> -->
+  
+    <div class="col-sm-12 col-sm-12 jk" routerLink="/main" >
+       <div class="hm">
+        <span class="cesar" > <i class="fa-solid fa-house-chimney" style="margin-right: 10px;"></i> TẤT CẢ SẢN PHẨM</span>
+       </div>
+    </div>
+   
 <div class="content" style="margin-top: 20px;">
     <div class="container">
         <div class="row">
@@ -29,12 +36,12 @@
             </div>
             <div class="col-lg-6" >
                 <h4 style="font-weight: bolder;">TIN TỨC & SỰ KIỆN</h4>
-                <div class="container nk" >
+                <div class="container nk luffy" >
                     <div class="row" *ngFor="let item of listEvent" routerLink="/detailEvent/{{item.id}}">
-                        <div class="col-lg-4">
+                        <div class="col-lg-4 col-md-6">
                             <img src="{{item.avatar}}" alt="" width="100%" style="height:110px;">
                         </div>
-                        <div class="col-lg-8">
+                        <div class="col-lg-8 col-md-6">
                             <h6>{{item.title}}</h6>
                         </div>
                     </div>
@@ -46,7 +53,7 @@
 <div class="sale">
     <div class="container">
         <div class="row">
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-6">
                <h6>GIÁ ƯU ĐÃI - GIAO XE SỚM</h6> 
                <span style="font-weight: bold;">Mercedes-Benz</span><span> luôn cam kết mang lại mức giá ưu đãi nhất cho quý khách với thời gian giao xe sớm.</span> 
                 <h6>ĐĂNG KÝ TRẢ GÓP</h6>
@@ -54,7 +61,7 @@
                 <h6>TƯ VẤN TẬN TÌNH</h6> 
                 <span>Với đội ngũ tư vấn bán hàng trẻ đầy nhiệt huyết <span style="font-weight: bold;">Mercedes-Benz</span>  sẽ hỗ trợ anh chị mua được chiếc xe Mercedes ưng ý.</span>
             </div>
-            <div class="col-lg-4">
+            <div class="col-lg-4 col-md-6">
                 <h6>KHUYẾN MÃI NHIỀU NHẤT</h6>
                 <span>Chúng tôi luôn cập nhật sớm nhất các chương trình khuyến mãi của hãng và đại lý giành cho khách hàng.</span>
                 <h6>LÁI THỬ TẬN NHÀ</h6>
@@ -62,23 +69,30 @@
                 <h6>BẢO HÀNH TOÀN CẦU</h6>
                 <span>Quý khách hãy yên tâm về xe Mercedes mua ở Mercedes-Benz, vì chúng tôi bảo hành, bảo dưỡng và sửa chữa theo tiêu chuẩn chất lượng của Mercedes trên toàn cầu. Cung cấp phụ tùng ô tô Mercedes chính hiệu.</span>
             </div>
-            <div class="col-lg-4">
-                <img src="https://vnn-imgs-a1.vgcloud.vn/image1.ictnews.vn/_Files/2019/12/25/mer27.jpg" alt="" width="100%" >
-                <h5 class="text-center" style="margin: 10px 0px; font-weight: bolder;">Tư Vấn Mua Xe Mercedes Benz</h5>
-               <div class="sdt">
-                    <button class="btn btn-info"> GỌI NGAY :  0363.590.281 </button>
-               </div>
+            <div class="col-lg-4 col-md-12">
+                <!-- <div class="row"> -->
+                    <div class="col-md-12">
+                        <img src="https://vnn-imgs-a1.vgcloud.vn/image1.ictnews.vn/_Files/2019/12/25/mer27.jpg" alt="" width="100%" >
+                    </div>
+                    <div class="col-md-12" style="margin-top: 50px;">
+                        <h5 class="text-center" style="margin: 10px 0px; font-weight: bolder;">Tư Vấn Mua Xe Mercedes Benz</h5>
+                        <div class="sdt">
+                            <button class="btn btn-info"> GỌI NGAY :  0363.590.281 </button>
+                      </div>
+                         </div>
+                <!-- </div> -->
+                
 
             </div>
         </div>
     </div>
 </div>
-<div class="evaluate">
+<!-- <div class="evaluate">
    <div class="container">
     <div class="top">
         <h4 class="text-center " style="margin-bottom: 20px ; font-weight: bolder;">ƯU ĐÃI DÀNH CHO KHÁCH HÀNG</h4>
     <div class="row">
-        <div class="col-md-4" style="border:2px solid black;padding:15px ;border-radius: 10px;border-bottom: 2px solid red;  ">
+        <div class="col-md-3" style="border:2px solid black;padding:15px ;border-radius: 10px;border-bottom: 2px solid red;  ">
             <div class="img text-center"  >
                 <i class="fa-solid fa-sack-dollar"></i>
             </div>
@@ -89,7 +103,7 @@
                 <span > Mercedes-Benz luôn đi tiên phong về giá cả, cam kết giá rẻ nhất.</span>
             </div>
         </div>
-        <div class="col-md-4" style="border:2px solid black;padding:15px ;border-radius: 10px;border-bottom: 2px solid red;   ">
+        <div class="col-md-3" style="border:2px solid black;padding:15px ;border-radius: 10px;border-bottom: 2px solid red;   ">
             <div class="img text-center"  >
                 <i class="fa-solid fa-headphones-simple"></i>
             </div>
@@ -101,7 +115,7 @@
                 <span>Email : mrnkt20052003@gmail.com</span>
             </div>
         </div>
-            <div class="col-md-4" style="border:2px solid black;padding:15px ;border-radius: 10px;border-bottom: 2px solid red; ">
+            <div class="col-md-3" style="border:2px solid black;padding:15px ;border-radius: 10px;border-bottom: 2px solid red; ">
                 <div class="img text-center"  >
                     <i class="fa-solid fa-cart-shopping"></i>
                 </div>
@@ -115,4 +129,4 @@
     </div>
     </div> 
    </div>
-</div>
+</div> -->

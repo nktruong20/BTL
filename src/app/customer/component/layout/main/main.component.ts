@@ -10,6 +10,7 @@ import { BlogService } from 'src/app/Service/blog.service';
 })
 export class MainComponent implements OnInit {
   listProduct:any;
+  keyword:any;
 
   constructor(private blogService:BlogService,private actRouter:ActivatedRoute) { }
 

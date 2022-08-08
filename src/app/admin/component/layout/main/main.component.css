@@ -5,3 +5,12 @@
 .above{
     margin-bottom: 15px;
 }
+table i{
+    font-size: 20px;
+    margin: auto;
+}
+/* tbody tr:hover td{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+} */

@@ -1,6 +1,7 @@
 import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
+import { CarouselModule } from 'ngx-owl-carousel-o';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -10,6 +11,12 @@ import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
 import { LogonComponent } from './logon/logon.component';
 import { LoginsComponent } from './logins/logins.component';
 import { SignupsComponent } from './signups/signups.component';
+import { NgxStarRatingModule } from 'ngx-star-rating';
+import { OwlComponent } from './owl/owl.component';
+import { DetailProductComponent } from './detail-product/detail-product.component';
+import { CartsComponent } from './carts/carts.component';
+
+
 
 
 
@@ -19,6 +26,11 @@ import { SignupsComponent } from './signups/signups.component';
     LogonComponent,
     LoginsComponent,
     SignupsComponent,
+    OwlComponent,
+    DetailProductComponent,
+    CartsComponent,
+
+  
 
   ],
   imports: [
@@ -30,6 +42,9 @@ import { SignupsComponent } from './signups/signups.component';
     BrowserAnimationsModule,
     NgxSpinnerModule,
     AppRoutingModule,
+    NgxStarRatingModule,
+    CarouselModule,
+    NgxSpinnerModule,
     
   ],
   providers: [],

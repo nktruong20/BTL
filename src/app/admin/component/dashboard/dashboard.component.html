@@ -1,4 +1,5 @@
-<app-header></app-header>
+<div class="img">
+    <app-header></app-header>
 <!-- <app-banner></app-banner> -->
 <!-- <div class="container"> -->
     <div class="row">
@@ -7,8 +8,9 @@
         </div>
         <div class="col-md-9">
             <!-- <button class="btn btn-primary" routerLink="/admin/main">Quản Lý Sản Phẩm</button> -->
-            <router-outlet></router-outlet>
+            <router-outlet (activate)="onActivate($event)"></router-outlet>
         </div>
     </div>
+</div>
 <!-- </div> -->
 <!-- <app-footer></app-footer> -->
