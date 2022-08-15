@@ -53,14 +53,10 @@ export class CartsComponent implements OnInit {
           'success'
         )
         this.deleteCart = this.cartService.deleteIt(id)
-        window.location.reload();
         // this.cartService.getList();
       }
     })
   
-  }
-  reload():void{
-    window.location.reload();
   }
 
   logout(){

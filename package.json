@@ -20,7 +20,7 @@
     "@angular/router": "~13.3.0",
     "@auth0/angular-jwt": "^5.0.2",
     "mdb-ui-kit": "^4.3.0",
-    "ngx-owl-carousel-o": "^7.0.3",
+    "ngx-owl-carousel-o": "^7.0.4",
     "ngx-spinner": "^13.1.1",
     "ngx-star-rating": "^2.1.0",
     "rxjs": "~7.5.0",
